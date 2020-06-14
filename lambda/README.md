@@ -13,7 +13,9 @@ Lambda is a serverless computing platform
  Configuring EC2 instance on AWS
   - Create new EC2 machine by choosing AMI 2 (which has AWS CLI pre installed)
   - Connect to EC2 machine using ssh
-      ```$ ssh -i <.pem file> ec2-user@<IPAddress>```
+      ```
+      $ ssh -i <.pem file> ec2-user@<IPAddress>
+      ```
   - Update the instance
       $ sudo yum update
   - Install Python
