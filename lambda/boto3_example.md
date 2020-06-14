@@ -1,4 +1,8 @@
-To use Boto3, you must first import it and tell it what service you are going to use:
+## Boto3 Examples
+
+### Working with S3
+
+#### To use Boto3, you must first import it and tell it what service you are going to use:
 ```
 import boto3
 
@@ -6,14 +10,16 @@ import boto3
 s3 = boto3.resource('s3')
 ```
 
-Now that you have an s3 resource, you can make requests and process responses from the service. The following uses the buckets collection to print out all bucket names:
+#### Now that you have an s3 resource, you can make requests and process responses from the service. The following uses the buckets collection to print out all bucket names:
 ```
 # Print out bucket names
 for bucket in s3.buckets.all():
     print(bucket.name)
 ```
 
-# Start & Stop Amazon EBS-backed instance
+### Working with EC2
+
+#### Start & Stop Amazon EBS-backed instance
 ```
 import sys
 import boto3
