@@ -27,7 +27,7 @@ Lambda is a serverless computing platform
   - To test the setup use command
       $ aws sts get-caller-identity
   - To test boto3 setup, open python console and use command
-      # import boto3
+      $ import boto3
   
       
 
