@@ -37,6 +37,7 @@ Lambda is a serverless computing platform
   - To test the setup use command
       ```
       $ aws sts get-caller-identity
+      $ {'UserId': 'AIDAJKLMNOPQRSTUVWXYZ', 'Account': '123456789012', 'Arn': 'arn:aws:iam::123456789012:user/devuser', 'ResponseMetadata': {'RequestId': '3e310806-50c9-11e9-93ae-dbac86675630', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': '3e310806-50c9-11e9-93ae-dbac86675630', 'content-type': 'text/xml', 'content-length': '404', 'date': 'Wed, 27 Mar 2019 19:48:06 GMT'}, 'RetryAttempts': 0}}
       ```
   - To test boto3 setup, open python console and use command
       ```
