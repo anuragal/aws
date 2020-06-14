@@ -28,6 +28,10 @@ Lambda is a serverless computing platform
       ```
       $ pip3 install boto3 --user    # user flag to make sure library install on user space
       ```
+      Or
+      ```
+      $ pip install awscli boto3 --upgrade --user   # To install AWL CLI & Boto3 with upgrade (if already installed)
+      ```
   - Use python3 for working with python 3.7
   - Configure AWS CLI
       ```
