@@ -33,4 +33,20 @@
 
 ### Unbalanced
 - Removing data which is not correct, this requires domain knowledge as data which does not look correct might be important for model training
-- 
+- Try to work on real data, ask for more data if data is not enough for model training. For e.g if manufaturing defect of some parts is to be predicted then with few defects (may be one week data) will not be enough, need more data points for defect may be one year data.
+- Oversample minority data. For e.g insert same defect data into dataset multiple times. But it might lead to model predicting only that type of fault
+- Synthesize the data. Create more data with domain knowledge or talk to people involve in that process to change some features for creating defect data
+- Try different algorithm type which is more suited for the type of data in hand
+
+## Label and one hot encoding
+Machine learning algorithms use numbers
+
+### Label Encoding
+- Encode the text values with numbers, and maintain a lookup table to reference them again for e.g Country
+
+### One hot encoding
+- Replacing the text with numbers can create ranking problem if numbers are choosen from 1 to n for categorical features
+- To overcome this, create seperate feature for each country and put 1 if that country else out 0
+
+
+
