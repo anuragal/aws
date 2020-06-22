@@ -1,4 +1,4 @@
-## Things to do for `AWS Certified Machine Learning - Specialty` certification
+## Things to do for [`AWS Certified Machine Learning - Specialty`](https://aws.amazon.com/certification/certified-machine-learning-specialty/) certification
 
 1. Going through the [Linux Academy Course](https://linuxacademy.com/cp/modules/view/id/340)
 2. Read whitepapers from `AWS SageMaker` and `Kinesis` documentation
