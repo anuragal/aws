@@ -23,3 +23,14 @@
 - PC is often used as a data pre processing step
 - Ther can be as many PC's as features or values
 - PC1 and PC2 can be used to plat a 2D graph to show groups of features
+
+## Missing and unbalanced data
+
+### Missing
+- Impute the data by taking mean of rest of the data
+- Remove that row of missing data from data set
+- If too many data is missing from one column (feature) then column can be removed
+
+### Unbalanced
+- Removing data which is not correct, this requires domain knowledge as data which does not look correct might be important for model training
+- 
