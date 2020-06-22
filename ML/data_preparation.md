@@ -56,6 +56,15 @@ Machine learning algorithms use numbers
 
 To solve the above problems data is always randomized before splitting the data
 
+## Data format
+
+### RecordIO
+- `Pipe mode` streams data as opposed to `file mode`
+- Faster training start-up times and better throughput
+- Amazon Sagemaker algorithms work best with RecordIO
+  - Streams data directly from S3
+  - Training instances dont need a local disk copy of data
+
 
 
 
