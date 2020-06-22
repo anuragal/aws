@@ -48,5 +48,10 @@ Ridge Regression
 ### Cross Validation
 
 #### K-fold cross validation
+Using training dataset for validation of model accuracy. Split the training dataset into various sections, train model with 5 sections and validate with 6th section. Each time use different section for validation
+
+Multiple algorithms can also be run of diffrent sections to find which algorithm is best suitable for this kind of dataset
+
+
 
 
