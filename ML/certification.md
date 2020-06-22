@@ -13,6 +13,11 @@
 5. How to look at residual plots
 6. What happens when you have colinear features)
 7. Recognize a Poisson distribution
+8. Transfer learning
+9. Kernel trick for classification
+10. 2 confusion matrices
+11. overfit/underfit and what to do to prevent it
+12. one about NLP algorithms TF-IDF "vs" word2vec
 
 ### Other questions were mostly around this topic:
 1. 2-3 questions on Use of Docker container
@@ -24,6 +29,8 @@
 7. 2-3 questions on document analysis/text analysis
 8. 1 question on calculating Shards
 9. 1 question on calculating Model Accuracy
+10. I got lots of questions on which AWS services to choose for real time processing (4-5 on Kinesis), batch ETL, huge ETL jobs (I got 6 or 7 questions just for EMR), Athena, Glue, QuickSight
+11. Some questions about IAM, VPC, CloudTrail, CloudWatch. Quite a few on SageMakers but not so many on the algorithms. I didn't get a lot of questions either on AWS managed ML services (Comprehend, Transcribe, ...), maybe one or two. Got a question on AWS Service Catalog as well... well that's the only answers that made sense compared to the others.
 
 ### Highly recommended to read below AWS documentations:
 1. AWS SageMaker
