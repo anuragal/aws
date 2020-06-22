@@ -30,7 +30,8 @@
 8. 1 question on calculating Shards
 9. 1 question on calculating Model Accuracy
 10. I got lots of questions on which AWS services to choose for real time processing (4-5 on Kinesis), batch ETL, huge ETL jobs (I got 6 or 7 questions just for EMR), Athena, Glue, QuickSight
-11. Some questions about IAM, VPC, CloudTrail, CloudWatch. Quite a few on SageMakers but not so many on the algorithms. I didn't get a lot of questions either on AWS managed ML services (Comprehend, Transcribe, ...), maybe one or two. Got a question on AWS Service Catalog as well... well that's the only answers that made sense compared to the others.
+11. Some questions about IAM, VPC, CloudTrail, CloudWatch. Quite a few on SageMakers but not so many on the algorithms. I didn't get a lot of questions either on AWS managed ML services (Comprehend, Transcribe, ...), maybe one or two. Got a question on AWS Service Catalog as well... well that's the only answers that made sense compared to the others
+12. 2-3 questions on docker stuff behind SageMaker
 
 ### Highly recommended to read below AWS documentations:
 1. AWS SageMaker
