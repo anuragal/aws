@@ -48,5 +48,15 @@ Machine learning algorithms use numbers
 - Replacing the text with numbers can create ranking problem if numbers are choosen from 1 to n for categorical features
 - To overcome this, create seperate feature for each country and put 1 if that country else out 0
 
+## Splitting & Randomization
+- Data can be collected overtime for e.g telemetry data, weather data
+  - If out of different sections if particular section is picked for model validation then it might be possible that this particular data is not representing the whole data
+- Data can be generated at single point of time for e.g images for deep learning
+  - Here if data is splitted in sections then it might be possible that only one feature set like dogs can be picked
+
+To solve the above problems data is always randomized before splitting the data
+
+
+
 
 
