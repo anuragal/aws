@@ -19,3 +19,17 @@ Model Predcition       Likes Dogs       TRUE POSITIVE                 FALSE POSI
                         like cats)       dogs but predicted           and also predicted 
                                          they dont like dogs)         they dont like cats)
 ```
+
+### Sensitivity & Specificity
+
+Sensitivity is a number of correct positive out of the actual positives results. It is also called as 
+  - True Positive Rate
+  - Recall
+  
+  Sensitivity = True Positives / (True Positives + False Negatives)
+  
+Specificity is a number of correct negative out of the actual negative results. It is also called as
+  - True Negative Rate
+  
+  Sensitivity = True Negatives / (True Negatives + False Positives)
+  
