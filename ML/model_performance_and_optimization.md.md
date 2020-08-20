@@ -1,10 +1,4 @@
-## Deep Learning
-
-The way our brain think and learn about verious things, similar way deep learning trying to learn and think.
-
-Neurons
-
-### Algorithms
+## Model Performance & Optimization
 These tools help us understand the testing output from an ML model. They are a cornerstone for making further calculations
 
 #### Confusion Matrix
