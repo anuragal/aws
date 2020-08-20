@@ -10,6 +10,7 @@ These tools help us understand the testing output from an ML model. They are a c
 #### Confusion Matrix
 A confusion matrix is a table that is often used to describe the performance of a classification model (or “classifier”) on a set of test data for which the true values are known. It allows the visualization of the performance of an algorithm
 
+```
                                                    **Known Truth**
                                     
                                          Likes Dogs             Likes Cats(Does Not like dogs)
@@ -23,3 +24,4 @@ Model Predcition       Likes Dogs       TRUE POSITIVE                 FALSE POSI
                        (Does not        (They actually like           (They dont like cats 
                         like cats)       dogs but predicted           and also predicted 
                                          they dont like dogs)         they dont like cats)
+```
