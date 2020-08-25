@@ -75,3 +75,9 @@ Def: Gini Impurity tells us what is the probability of misclassifying an observa
 
 Note that the lower the Gini the better the split. In other words the lower the likelihood of misclassification.
 
+### F1 Score
+Machine learning accuracy is sometimes not the best way to judge the effectivness of our model. F1 Score takes more into account and can be a better measure for models if we have an uneven class distribution
+
+F1 Score = 2*( (precision*recall) / (precision+recall) ). 
+
+It is also called the F Score or the F Measure. Put another way, the F1 score conveys the balance between the precision and the recall.
