@@ -21,6 +21,7 @@ Model Predcition       Likes Dogs       TRUE POSITIVE                 FALSE POSI
 ```
 
 ### Sensitivity & Specificity
+Way to calculate how effective the model is by applying the confusion matrix values in the below formula
 
 Sensitivity is a number of correct positive out of the actual positives results. It is also called as 
   - True Positive Rate
@@ -33,3 +34,8 @@ Specificity is a number of correct negative out of the actual negative results. 
   
   Sensitivity = True Negatives / (True Negatives + False Positives)
   
+#### Examples 
+
+Sensitivity - When bank wants to find all fraudalant transactions, in that process even if some false positive (legimitate transactions are flagged as fraud) cases are also picked up, that is fine. 
+
+Speciticity - When parent wants to pick only those videos for kid that are age appropriate not the other ones, in that process even if some of the valid videos are left out, that is fine.
