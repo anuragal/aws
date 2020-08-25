@@ -61,4 +61,4 @@ ROC -
 
 AUC - 
 
-!()[https://github.com/anuragal/aws/blob/master/ML/ROC_AUC.png]
+![](https://github.com/anuragal/aws/blob/master/ML/ROC_AUC.png)
