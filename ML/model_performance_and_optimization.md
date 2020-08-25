@@ -39,3 +39,26 @@ Specificity is a number of correct negative out of the actual negative results. 
 Sensitivity - When bank wants to find all fraudalant transactions, in that process even if some false positive (legimitate transactions are flagged as fraud) cases are also picked up, that is fine. 
 
 Speciticity - When parent wants to pick only those videos for kid that are age appropriate not the other ones, in that process even if some of the valid videos are left out, that is fine.
+
+
+### Accuracy & Precision
+
+Accuracy - The proportion of all the predictions which were correctly identified
+  - How right was the model
+  
+    accuracy = (True Postives + True Negatives) / Total
+
+Precision - The proportion of actual positives which were correctly identified
+  - How right was the model in identifying the postive results
+  
+   precision = (True Postives) / (True Postives + False Positives)
+   
+### ROC/AUC
+
+In a previous lesson we looked at the sensitivity and specificity of a machine learning model. But how far should we take this? When does a model become so sensitive that it's usless? ROC helps us determine the answer to this question, and AUC will help us see which model seperates our classes the best
+
+ROC - 
+
+AUC - 
+
+
